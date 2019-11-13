@@ -5,7 +5,7 @@
  * 
  * LV "Algorithmen" WiSe 2019
  *
- * Problem: ...
+ * Problem: Es gibt keine Probleme nur Herausforderungen
  * 
  * @author Behr Julius, Ralfs Torben
  * @version 1.0
