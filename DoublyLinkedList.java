@@ -7,7 +7,7 @@
  *
  * Problem: Es gibt keine Probleme nur Herausforderungen
  * 
- * @author Behr Julius, Ralfs Torben
+ * @author Behr Julius, Ralfs Torben , NancyStolze 
  * @version 1.0
  * 
  **/
