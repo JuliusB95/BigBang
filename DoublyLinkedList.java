@@ -26,7 +26,7 @@ public class DoublyLinkedList extends List {
   }
   
 
-
+//please kommentiere the code!!
   public boolean existActListnodePredecessor() {
     if(cursor==null)
       return false;
@@ -117,7 +117,7 @@ public class DoublyLinkedList extends List {
       del.next=null;
       ((DLListnode)del).pred=null;
     }else {
-      System.out.println("deleteBefore: Der Vorg‰nger des aktuellen Listenknotens existiert nicht.");
+      System.out.println("deleteBefore: Der Vorg√§nger des aktuellen Listenknotens existiert nicht.");
     }
     
 }
