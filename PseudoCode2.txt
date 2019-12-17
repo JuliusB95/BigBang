@@ -1,8 +1,9 @@
-Use Case 7: Buch über Terminal suchen
+Use Case 7: Buch über Terminal suchen // wo ist Matthias Kommentar?????
 
 Methode rufen:
 
 gibListeZurBuchSucheZurueck sucheBuch(titel, autor, isbn, thema){
+	// Kommentar zu den Bedingungen der Parameterpruefung
 	Wenn Parameter titel gesetzt
 		Trage Parameter in die Abfrage ein;
 	Wenn Parameter autor gesetzt
