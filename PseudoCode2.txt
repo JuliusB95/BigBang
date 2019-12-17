@@ -1,0 +1,29 @@
+Use Case 7: Buch suchen
+
+Methode rufen:
+
+gibListeZurBuchSucheZurueck sucheBuch(titel, autor, isbn, thema){
+	Wenn Parameter titel gesetzt
+		Trage Parameter in die Abfrage ein;
+	Wenn Parameter autor gesetzt
+		Trage Parameter in die Abfrage ein;
+	Wenn Parameter isbn gesetzt
+		Trage Parameter in die Abfrage ein;
+	Wenn Parameter thema gesetzt
+		Trage Parameter in die Abfrage ein;
+	Wenn keine Parameter übergeben wurden {
+		Dann gib eine Meldung aus;
+		Beende Methode hier;
+	}
+	Erstelle Abfrage für Datenbank;
+	Wenn Datenbankverbindung geöffnet ist {
+		Führe Abfrage aus;
+		Suche solange in Tabelle, jede Zeile und Spalte nach dem Suchbegriff {
+			Falls Titel, autor, isbn oder thema übereinstimmen;
+				Trage in die Liste ein;
+		}
+		Schließe Datenbankverbindung;
+	}
+	Ansonsten gib eine Meldung aus und beende Methode hier;
+	Gib Liste zur Buchsuche zurueck;
+}
