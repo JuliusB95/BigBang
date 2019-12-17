@@ -3,6 +3,7 @@ Use Case 7: Buch über Terminal suchen
 Methode rufen:
 
 gibListeZurBuchSucheZurueck sucheBuch(titel, autor, isbn, thema){
+	// Kommentar für Bedingungn hinzugefuegt
 	Wenn Parameter titel gesetzt
 		Trage Parameter in die Abfrage ein;
 	Wenn Parameter autor gesetzt
