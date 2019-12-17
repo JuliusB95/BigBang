@@ -1,4 +1,4 @@
-Use Case 7: Buch über Terminal suchen // wo ist Matthias Kommentar?????
+Use Case 7: Buch über Terminal suchen //
 
 Methode rufen:
 
