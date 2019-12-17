@@ -1,4 +1,4 @@
-Use Case 7: Buch suchen
+Use Case 7: Buch suchen für die Bibliothek
 
 Methode rufen:
 
