@@ -20,7 +20,7 @@ gibListeZurBuchSucheZurueck sucheBuch(titel, autor, isbn, thema){
 		Führe Abfrage aus;
 		Suche solange in Tabelle, jede Zeile und Spalte nach dem Suchbegriff {
 			Falls Titel, autor, isbn oder thema übereinstimmen;
-				Trage in die Liste ein;
+				Trage den Treffer in die Liste ein;
 		}
 		Schließe Datenbankverbindung;
 	}
