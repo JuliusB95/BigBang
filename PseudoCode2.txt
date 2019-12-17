@@ -15,7 +15,7 @@ gibListeZurBuchSucheZurueck sucheBuch(titel, autor, isbn, thema){
 		Dann gib eine Meldung auf der Konsole aus;
 		Beende Methode hier;
 	}
-	Erstelle Abfrage für Datenbank;
+	Erstelle Abfrage für die Datenbank;
 	Wenn Datenbankverbindung geöffnet ist {
 		Führe Abfrage aus;
 		Suche solange in Tabelle, jede Zeile und Spalte nach dem Suchbegriff {
