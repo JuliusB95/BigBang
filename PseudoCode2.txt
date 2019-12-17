@@ -12,7 +12,7 @@ gibListeZurBuchSucheZurueck sucheBuch(titel, autor, isbn, thema){
 	Wenn Parameter thema gesetzt
 		Trage Parameter in die Abfrage ein;
 	Wenn keine Parameter übergeben wurden {
-		Dann gib eine Meldung aus;
+		Dann gib eine Meldung auf der Konsole aus;
 		Beende Methode hier;
 	}
 	Erstelle Abfrage für Datenbank;
